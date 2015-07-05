@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mil"/>
+<grid distance="12.5" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2201,8 +2201,7 @@ design rules under a new name.</description>
 <wire x1="26.9875" y1="22.5425" x2="26.9875" y2="20.0025" width="0.254" layer="1"/>
 <wire x1="26.9875" y1="20.0025" x2="26.9875" y2="17.4625" width="0.254" layer="1"/>
 <wire x1="26.9875" y1="17.4625" x2="26.9875" y2="14.9225" width="0.254" layer="1"/>
-<wire x1="26.9875" y1="14.9225" x2="26.9875" y2="13.6525" width="0.254" layer="1"/>
-<wire x1="26.9875" y1="13.6525" x2="26.67" y2="13.6525" width="0.254" layer="1"/>
+<wire x1="26.9875" y1="13.6525" x2="26.67" y2="13.6525" width="0" layer="19" extent="1-16"/>
 <wire x1="25.9325" y1="36.5125" x2="26.9875" y2="36.5125" width="0.254" layer="1"/>
 <wire x1="25.9325" y1="33.9725" x2="26.9875" y2="33.9725" width="0.254" layer="1"/>
 <wire x1="25.9325" y1="31.4325" x2="26.9875" y2="31.4325" width="0.254" layer="1"/>
@@ -2224,7 +2223,7 @@ design rules under a new name.</description>
 <wire x1="28.0425" y1="39.0525" x2="26.9875" y2="39.0525" width="0.254" layer="1"/>
 <wire x1="33.5525" y1="14.9225" x2="34.6075" y2="14.9225" width="0.254" layer="1"/>
 <wire x1="34.6075" y1="13.6525" x2="28.8925" y2="13.6525" width="0.254" layer="1"/>
-<wire x1="28.8925" y1="13.6525" x2="26.9875" y2="13.6525" width="0.254" layer="1"/>
+<wire x1="28.8925" y1="13.6525" x2="26.9875" y2="13.6525" width="0" layer="19" extent="1-16"/>
 <wire x1="34.6075" y1="14.9225" x2="34.6075" y2="13.6525" width="0.254" layer="1"/>
 <wire x1="41.1725" y1="14.9225" x2="41.1725" y2="13.8675" width="0.254" layer="1"/>
 <wire x1="41.1725" y1="13.8675" x2="40.9575" y2="13.6525" width="0.254" layer="1"/>
@@ -2257,12 +2256,14 @@ design rules under a new name.</description>
 <wire x1="35.6625" y1="31.4325" x2="34.6075" y2="31.4325" width="0.254" layer="1"/>
 <wire x1="35.6625" y1="36.5125" x2="34.6075" y2="36.5125" width="0.254" layer="1"/>
 <wire x1="35.6625" y1="39.0525" x2="34.6075" y2="39.0525" width="0.254" layer="1"/>
-<wire x1="26.5875" y1="13.57" x2="26.67" y2="13.6525" width="0.254" layer="1"/>
-<wire x1="26.67" y1="13.6525" x2="19.685" y2="13.6525" width="0.254" layer="1"/>
+<wire x1="26.5875" y1="13.57" x2="26.67" y2="13.6525" width="0" layer="19" extent="1-16"/>
+<wire x1="28.8925" y1="13.6525" x2="26.9875" y2="13.6525" width="0.254" layer="1"/>
+<wire x1="26.9875" y1="13.6525" x2="19.685" y2="13.6525" width="0.254" layer="1"/>
 <wire x1="19.685" y1="13.6525" x2="19.3675" y2="13.97" width="0.254" layer="1"/>
 <wire x1="19.3675" y1="13.97" x2="19.3675" y2="14.9225" width="0.254" layer="1"/>
 <wire x1="28.81" y1="8.89" x2="28.81" y2="13.57" width="0.254" layer="1"/>
 <wire x1="28.81" y1="13.57" x2="28.8925" y2="13.6525" width="0.254" layer="1"/>
+<wire x1="26.9875" y1="14.9225" x2="26.9875" y2="13.6525" width="0.254" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="R22" pad="2"/>
